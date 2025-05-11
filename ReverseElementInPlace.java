@@ -24,9 +24,9 @@ public class ReverseElementInPlace {
         end--;
     }
     System.out.println("Array after reversing from given index");
-    for(int array:arr)
+    for(int i=0;i<n;i++)
     {
-       System.out.println(array);
+       System.out.println(arr[i]);
     }
 }
 else{
