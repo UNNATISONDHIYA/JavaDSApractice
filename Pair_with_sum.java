@@ -12,11 +12,11 @@ public class Pair_with_sum {
     }
     System.out.println("Enter sum:");
     int sum = s.nextInt();
-    int i=0,j=0;
     System.out.println("Pair with Sum:");
-    for(i=0;i<n-1;i++)
+    for(int i=0;i<n-1;i++)
     {
-        for(j=i+1;j<n;j++)
+        for(int j=i+1;j<n;j++)
+
         {
             if(arr[i]+arr[j]==sum)
             {
@@ -24,10 +24,6 @@ public class Pair_with_sum {
             }
             
         }
-    }
-    if(arr[i]+arr[j]!=sum)
-    {
-        System.out.println("Pair not found");
     }
     
 }
